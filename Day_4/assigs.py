@@ -5,7 +5,7 @@ director = input("director: ")
 year = input("release_year: ")
 money = input("budget: ")
 
-new_movies = (title, director, year, money)
+new_movies = title, director, year, money
 
 print(f'{new_movies[0]}')
 print(f"{new_movies[2]}")
